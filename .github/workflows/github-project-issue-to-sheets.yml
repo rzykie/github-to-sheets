@@ -1,4 +1,4 @@
-name: github-project-issue-to-sheets
+name: github-to-sheets
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -8,13 +8,13 @@ on:
     types: [opened, deleted, transferred, closed, reopened, assigned, unassigned, labeled, unlabeled]
 
 jobs:
-    github-project-issue-to-sheets:
+    github-to-sheets:
         runs-on: ubuntu-latest
-        name: github-project-issue-to-sheets
+        name: github-to-sheets
         steps:
-        - name: github-project-issue-to-sheets
-          id: github-project-issue-to-sheets
-          uses: rzykie/github-to-sheets@main
+        - name: github-to-sheets
+          id: github-to-sheets
+          uses: rzykie/github-to-sheets
           with:
             google-api-service-account-credentials: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_DATA }}
             document-id: '1uJoQN11JIdzgz8RhBVN3affHOX9gx-gO'
