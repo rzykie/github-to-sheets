@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ViRGiL175/github-project-issue-to-sheets.git"
+    "url": "git+https://github.com/rzykie/github-to-sheets.git"
   },
-  "author": "ViRGiL7",
+  "author": "rzykie",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ViRGiL175/github-project-issue-to-sheets/issues"
+    "url": "https://github.com/rzykie/github-to-sheets/issues"
   },
   "homepage": "https://github.com/ViRGiL175/github-project-issue-to-sheets#readme",
   "devDependencies": {
