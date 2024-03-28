@@ -14,7 +14,7 @@ jobs:
         steps:
         - name: github-to-sheets
           id: github-to-sheets
-          uses: rzykie/github-to-sheets
+          uses: rzykie/github-to-sheets@main
           with:
             google-api-service-account-credentials: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_DATA }}
             document-id: '1uJoQN11JIdzgz8RhBVN3affHOX9gx-gO'
